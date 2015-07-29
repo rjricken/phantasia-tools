@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Phantasia - Final Fantasy VIII Romhacking Tools
+Copyright (C) 2005 Ricardo J. Ricken (Darkl0rd)
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA -->
+
+<BattleModule xmlns="projeto-ffviii-br">
+  <Block n="1" count="39" width="8" group="2" />
+  <Block n="2" count="57" width="60" group="2" />
+  <Block n="3" count="16" width="132" group="2" />
+  <Block n="4" count="384" width="20" group="1" />
+  <Block n="5" count="33" width="12" group="1" />
+  <Block n="6" count="4" width="24" group="2" />
+  <Block n="7" count="11" width="36" group="1" />
+  <Block n="8" count="33" width="24" group="2" />
+  <Block n="9" count="332" width="2" group="1" />
+  <Block n="10" count="16" width="20" group="1" />
+  <Block n="11" count="20" width="8" group="2" />
+  <Block n="12" count="19" width="8" group="2" />
+  <Block n="13" count="19" width="8" group="2" />
+  <Block n="14" count="20" width="8" group="2" />
+  <Block n="15" count="5" width="8" group="2" />
+  <Block n="16" count="9" width="8" group="2" />
+  <Block n="17" count="24" width="8" group="2" />
+  <Block n="18" count="5" width="24" group="2" />
+  <Block n="19" count="16" width="16" group="2" />
+  <Block n="20" count="8" width="24" group="2" />
+  <Block n="21" count="10" width="32" group="2" />
+  <Block n="22" count="2" width="8" group="2" />
+  <Block n="23" count="5" width="20" group="1" />
+  <Block n="24" count="16" width="12" group="1" />
+  <Block n="25" count="128" width="2" group="1" />
+</BattleModule>

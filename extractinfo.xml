@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+
+<!--
+Phantasia - Final Fantasy VIII Romhacking Tools
+Copyright (C) 2005 Ricardo J. Ricken (Darkl0rd)
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA -->
+
+<ExtractInfo xmlns="projeto-ffviii-br">
+  <DiscInfo number="1" img="FF8DISC1.IMG" secsize="800">
+    <MainIndex off="0" discpos="33A">
+      <EntryInfo n="0" type="bin" name="dtes" comment="Unknown data. DTEs can be seen near EOF" />
+      <EntryInfo n="1" type="lzs" comment="Contains an index to compressed files (maybe graphics)" />
+      <EntryInfo n="2" type="lzs" name="fieldindex" comment="Contains an index to all the field dialogs files">
+        <SubIndex begin="286A0" end="2A5F8" folder="Field" ext="msd" />
+      </EntryInfo>
+      <EntryInfo n="3" type="bin" comment="Unknown data" />
+      <EntryInfo n="4" type="bin" name="places" comment="Contains the name of all places found in the game (plus some Menus)">
+        <Data ptroff="87D4" txtoff="88DA" format="8" comment="Main Menu" />
+        <Data ptroff="93B8" txtoff="95B0" format="2" comment="Places" />
+      </EntryInfo>
+      <EntryInfo n="5" type="bin" comment="Unknown data" />
+      <EntryInfo n="6" type="bin" comment="Unknown data" />
+      <EntryInfo n="7" type="bin" name="angelo" comment="Angelo's attacks description">
+        <!--<Data ptroff="4164" txtoff="41AC" format="" comment="Angelo" />-->
+      </EntryInfo>
+      <EntryInfo n="8" type="bin" comment="Unknown data" />
+      <EntryInfo n="9" type="bin" comment="Unknown data" />
+      <EntryInfo n="10" type="bin" comment="Unknown data" />
+      <EntryInfo n="11" type="bin" comment="Unknown data" />
+      <EntryInfo n="12" type="bin" comment="Unknown data" />
+      <EntryInfo n="13" type="bin" comment="Unknown data" />
+      <EntryInfo n="14" type="bin" comment="Unknown data" />
+      <EntryInfo n="15" type="bin" comment="Unknown data" />
+      <EntryInfo n="16" type="bin" name="monsters" comment="Contains names of monsters (plus Card Game commands)">
+        <!--<Data ptroff="" txtoff="" format="" />-->
+      </EntryInfo>
+      <EntryInfo n="17" type="bin" comment="Unknown data" />
+      <EntryInfo n="18" type="bin" comment="Unknown data" />
+      <EntryInfo n="19" type="bin" comment="Unknown data" />
+      <EntryInfo n="20" type="bin" comment="Unknown data" />
+      <EntryInfo n="21" type="bin" name="menus" comment="Contains a lot of text data">
+        <Data ptroff="0" txtoff="0" format="3" comment="Junction" />
+        <Data ptroff="800" txtoff="0" format="3" comment="Menus" />
+        <Data ptroff="2000" txtoff="0" format="3" comment="Menus" />
+        <Data ptroff="1A8000" txtoff="1A80E0" format="2" comment="Magazine" />
+        <Data ptroff="1AB000" txtoff="1AB032" format="2" comment="Help" />
+        <Data ptroff="1AB800" txtoff="1AB870" format="2" comment="Help" />
+        <Data ptroff="1AC800" txtoff="1AC820" format="2" comment="Minimog" />
+        <Data ptroff="1AD800" txtoff="1AD818" format="4" comment="SeedTest" />
+        <Data ptroff="1AE000" txtoff="1AE016" format="4" comment="SeedTest" />
+        <Data ptroff="1AE800" txtoff="1AE816" format="4" comment="SeedTest" />
+        <Data ptroff="1AF000" txtoff="1AF016" format="4" comment="SeedTest" />
+        <Data ptroff="1AF800" txtoff="1AF816" format="4" comment="SeedTest" />
+        <Data ptroff="1B0000" txtoff="1B0016" format="4" comment="SeedTest" />
+        <Data ptroff="1B0800" txtoff="1B0816" format="4" comment="SeedTest" />
+        <Data ptroff="1B1000" txtoff="1B1016" format="4" comment="SeedTest" />
+        <Data ptroff="1B1800" txtoff="1B1816" format="4" comment="SeedTest" />
+        <Data ptroff="1B2000" txtoff="1B2016" format="4" comment="SeedTest" />
+        <Data ptroff="1B2800" txtoff="1B2816" format="4" comment="SeedTest" />
+        <Data ptroff="1B3000" txtoff="1B3016" format="4" comment="SeedTest" />
+        <Data ptroff="1B3800" txtoff="1B3816" format="4" comment="SeedTest" />
+        <Data ptroff="1B4000" txtoff="1B4016" format="4" comment="SeedTest" />
+        <Data ptroff="1B4800" txtoff="1B4816" format="4" comment="SeedTest" />
+        <Data ptroff="1B5000" txtoff="1B5016" format="4" comment="SeedTest" />
+        <Data ptroff="1B5800" txtoff="1B5816" format="4" comment="SeedTest" />
+        <Data ptroff="1B6000" txtoff="1B6016" format="4" comment="SeedTest" />
+        <Data ptroff="1B6800" txtoff="1B6816" format="4" comment="SeedTest" />
+        <Data ptroff="1B7000" txtoff="1B7016" format="4" comment="SeedTest" />
+        <Data ptroff="1B7800" txtoff="1B7816" format="4" comment="SeedTest" />
+        <Data ptroff="1B8000" txtoff="1B8016" format="4" comment="SeedTest" />
+        <Data ptroff="1B8800" txtoff="1B8816" format="4" comment="SeedTest" />
+        <Data ptroff="1B9000" txtoff="1B9016" format="4" comment="SeedTest" />
+        <Data ptroff="1B9800" txtoff="1B9816" format="4" comment="SeedTest" />
+        <Data ptroff="1BA000" txtoff="1BA016" format="4" comment="SeedTest" />
+        <Data ptroff="1BA800" txtoff="1BA816" format="4" comment="SeedTest" />
+        <Data ptroff="1BB000" txtoff="1BB016" format="4" comment="SeedTest" />
+        <Data ptroff="1BB800" txtoff="1BB816" format="4" comment="SeedTest" />
+        <Data ptroff="1BC000" txtoff="1BC016" format="4" comment="SeedTest" />
+        <Data ptroff="1BC800" txtoff="1BC816" format="4" comment="SeedTest" />
+        <Data ptroff="1BD000" txtoff="1BD016" format="4" comment="SeedTest" />
+        <Data ptroff="1BD804" txtoff="1BE000" format="6" comment="MenuInfo" />
+        <Data ptroff="1BD964" txtoff="1C2800" format="6" comment="Ability" />
+        <Data ptroff="1BDAB0" txtoff="1C6800" format="6" comment="Ability" />
+        <Data ptroff="1BDBBC" txtoff="1CB000" format="6" comment="Magic" />
+        <Data ptroff="1BDCD0" txtoff="1CF000" format="6" comment="Magic" />
+        <Data ptroff="1BDD80" txtoff="1D1800" format="6" comment="Information" />
+        <Data ptroff="1D6000" txtoff="1D6066" format="2" comment="Tutorial" />
+        <Data ptroff="1D7000" txtoff="1D703A" format="2" comment="Tutorial" />
+        <Data ptroff="1D7800" txtoff="1D783C" format="2" comment="Tutorial" />
+        <Data ptroff="1D8000" txtoff="1D8038" format="2" comment="Tutorial" />
+        <Data ptroff="1D8800" txtoff="1D8846" format="2" comment="Tutorial" />
+        <Data ptroff="1D9000" txtoff="1D9024" format="2" comment="Tutorial" />
+        <Data ptroff="1D9800" txtoff="1D980E" format="2" comment="Tutorial" />
+        <Data ptroff="1DA000" txtoff="1DA020" format="2" comment="Tutorial" />
+        <Data ptroff="21F000" txtoff="221800" format="5" comment="Refines" />
+        <Data ptroff="21F800" txtoff="223000" format="5" comment="Refines" />
+        <Data ptroff="220000" txtoff="225000" format="5" comment="Refines" />
+        <Data ptroff="220800" txtoff="225800" format="5" comment="Refines" />
+        <Data ptroff="221000" txtoff="226000" format="5" comment="Refines" />
+        <Data ptroff="227800" txtoff="227830" format="2" comment="Switch" />
+      </EntryInfo>
+      <EntryInfo n="22" type="bin" name="gfs" comment="Contains the names of the GFs" />
+      <EntryInfo n="23" type="lzs" comment="Lotta graphics (plus some duplicated text)" />
+      <EntryInfo n="24" type="bin" comment="Unknown data" />
+      <EntryInfo n="25" type="bin" name="battleindex" comment="Contains an index to all the field battle files">
+        <SubIndex begin="499B4" end="4BCA4" folder="Battle" ext="dat" />
+      </EntryInfo>
+      <EntryInfo n="26" type="lzs" comment="Unverified data" />
+      <!-- n="27" through n="127" contains sound data -->
+      <EntryInfo n="128" type="bin" name="battle" comment="Contains battle menus, commands and info">
+        <Data ptroff="00E4" txtoff="4E08" format="7" comment="Commands" />
+        <Data ptroff="021C" txtoff="5188" format="7" comment="Magic" />
+        <Data ptroff="0F78" txtoff="57B0" format="7" comment="GF Attacks" />
+        <Data ptroff="17B8" txtoff="59F0" format="7" comment="Monster Attacks" />
+        <Data ptroff="35B8" txtoff="619C" format="7" comment="Weapons" />
+        <Data ptroff="3744" txtoff="62F8" format="7" comment="Squall Limits" />
+        <Data ptroff="37A4" txtoff="6364" format="7" comment="Characters" />
+        <Data ptroff="3930" txtoff="63A0" format="7" comment="Recovery Items" />
+        <Data ptroff="3C48" txtoff="6768" format="7" comment="Items" />
+        <Data ptroff="3EE0" txtoff="7C28" format="7" comment="Other GF Attacks" />
+        <Data ptroff="40E0" txtoff="7CDC" format="7" comment="Junctions" />
+        <Data ptroff="4180" txtoff="7E9C" format="7" comment="Commands" />
+        <Data ptroff="4218" txtoff="8000" format="7" comment="GF Abilities" />
+        <Data ptroff="42B0" txtoff="81A8" format="7" comment="GF Abilities" />
+        <Data ptroff="4350" txtoff="84A8" format="7" comment="GF Abilities" />
+        <Data ptroff="4378" txtoff="8540" format="7" comment="GF Abilities" />
+        <Data ptroff="43C0" txtoff="862C" format="7" comment="GF Abilities" />
+        <Data ptroff="4480" txtoff="89C0" format="7" comment="Laguna Limits" />
+        <Data ptroff="44F8" txtoff="8A40" format="7" comment="Quistis Limits" />
+        <Data ptroff="47F8" txtoff="8C24" format="7" comment="Irvine Limits" />
+        <Data ptroff="48B8" txtoff="8D0C" format="7" comment="Zell Limits" />
+        <Data ptroff="4A5C" txtoff="8E04" format="7" comment="Rinoa Limits" />
+        <Data ptroff="4A6C" txtoff="8E38" format="7" comment="Rinoa Limits" />
+        <Data ptroff="4C0C" txtoff="8E74" format="7" comment="Tastes" />
+        <Data ptroff="4D08" txtoff="8F74" format="7" comment="Misc" />
+      </EntryInfo>
+      <EntryInfo n="129" type="bin" comment="Unknown data" />
+      <EntryInfo n="130" type="bin" comment="Unknown data" />
+      <EntryInfo n="131" type="bin" name="mtes" comment="Contains all the MTEs used through files">
+        <Data ptroff="0" txtoff="42" format="2" comment="MTEs" />
+      </EntryInfo>
+      <EntryInfo n="132" type="bin" comment="Unknown data" />
+    </MainIndex>
+  </DiscInfo>
+  
+  
+  
+  
+  
+  
+  
+  <DiscInfo number="2" img="FF8DISC2.IMG" secsize="800">
+    <MainIndex off="0" discpos="33A">
+      <EntryInfo n="0" type="bin" name="dtes" comment="Unknown data. DTEs can be seen near EOF"/>
+      <EntryInfo n="2" type="lzs" name="fieldindex" comment="Contains an index to all the field dialogs files">
+        <SubIndex begin="286A0" end="2B648" folder="Field" ext="msd" />
+      </EntryInfo>
+      <EntryInfo n="3" type="bin" comment="Unknown data"/>
+      <EntryInfo n="4" type="bin" name="places" comment="Contains the name of all places found in the game (plus some Menus)">
+        <Data ptroff="87D4" txtoff="88DA" format="8" comment="Main Menu" />
+        <Data ptroff="93B8" txtoff="95B0" format="2" comment="Places" />
+      </EntryInfo>
+      <EntryInfo n="5" type="bin" comment="Unknown data"/>
+      <EntryInfo n="8" type="bin" comment="Unknown data"/>
+      <EntryInfo n="10" type="bin" comment="Unknown data"/>
+      <EntryInfo n="11" type="bin" comment="Unknown data"/>
+      <EntryInfo n="12" type="bin" comment="Unknown data"/>
+      <EntryInfo n="13" type="bin" comment="Unknown data"/>
+      <EntryInfo n="14" type="bin" comment="Unknown data"/>
+      <EntryInfo n="17" type="bin" comment="Unknown data"/>
+      <EntryInfo n="19" type="bin" comment="Unknown data"/>
+      <EntryInfo n="20" type="bin" comment="Unknown data"/>
+      <EntryInfo n="21" type="bin" name="menus" comment="Contains a lot of text data">
+        <Data ptroff="0" txtoff="0" format="3" comment="Junction" />
+        <Data ptroff="800" txtoff="0" format="3" comment="Menus" />
+        <Data ptroff="2000" txtoff="0" format="3" comment="Menus" />
+        <Data ptroff="1A8000" txtoff="1A80E0" format="2" comment="Magazine" />
+        <Data ptroff="1AB000" txtoff="1AB032" format="2" comment="Help" />
+        <Data ptroff="1AB800" txtoff="1AB870" format="2" comment="Help" />
+        <Data ptroff="1AC800" txtoff="1AC820" format="2" comment="Minimog" />
+        <Data ptroff="1AD800" txtoff="1AD818" format="4" comment="SeedTest" />
+        <Data ptroff="1AE000" txtoff="1AE016" format="4" comment="SeedTest" />
+        <Data ptroff="1AE800" txtoff="1AE816" format="4" comment="SeedTest" />
+        <Data ptroff="1AF000" txtoff="1AF016" format="4" comment="SeedTest" />
+        <Data ptroff="1AF800" txtoff="1AF816" format="4" comment="SeedTest" />
+        <Data ptroff="1B0000" txtoff="1B0016" format="4" comment="SeedTest" />
+        <Data ptroff="1B0800" txtoff="1B0816" format="4" comment="SeedTest" />
+        <Data ptroff="1B1000" txtoff="1B1016" format="4" comment="SeedTest" />
+        <Data ptroff="1B1800" txtoff="1B1816" format="4" comment="SeedTest" />
+        <Data ptroff="1B2000" txtoff="1B2016" format="4" comment="SeedTest" />
+        <Data ptroff="1B2800" txtoff="1B2816" format="4" comment="SeedTest" />
+        <Data ptroff="1B3000" txtoff="1B3016" format="4" comment="SeedTest" />
+        <Data ptroff="1B3800" txtoff="1B3816" format="4" comment="SeedTest" />
+        <Data ptroff="1B4000" txtoff="1B4016" format="4" comment="SeedTest" />
+        <Data ptroff="1B4800" txtoff="1B4816" format="4" comment="SeedTest" />
+        <Data ptroff="1B5000" txtoff="1B5016" format="4" comment="SeedTest" />
+        <Data ptroff="1B5800" txtoff="1B5816" format="4" comment="SeedTest" />
+        <Data ptroff="1B6000" txtoff="1B6016" format="4" comment="SeedTest" />
+        <Data ptroff="1B6800" txtoff="1B6816" format="4" comment="SeedTest" />
+        <Data ptroff="1B7000" txtoff="1B7016" format="4" comment="SeedTest" />
+        <Data ptroff="1B7800" txtoff="1B7816" format="4" comment="SeedTest" />
+        <Data ptroff="1B8000" txtoff="1B8016" format="4" comment="SeedTest" />
+        <Data ptroff="1B8800" txtoff="1B8816" format="4" comment="SeedTest" />
+        <Data ptroff="1B9000" txtoff="1B9016" format="4" comment="SeedTest" />
+        <Data ptroff="1B9800" txtoff="1B9816" format="4" comment="SeedTest" />
+        <Data ptroff="1BA000" txtoff="1BA016" format="4" comment="SeedTest" />
+        <Data ptroff="1BA800" txtoff="1BA816" format="4" comment="SeedTest" />
+        <Data ptroff="1BB000" txtoff="1BB016" format="4" comment="SeedTest" />
+        <Data ptroff="1BB800" txtoff="1BB816" format="4" comment="SeedTest" />
+        <Data ptroff="1BC000" txtoff="1BC016" format="4" comment="SeedTest" />
+        <Data ptroff="1BC800" txtoff="1BC816" format="4" comment="SeedTest" />
+        <Data ptroff="1BD000" txtoff="1BD016" format="4" comment="SeedTest" />
+        <Data ptroff="1BD804" txtoff="1BE000" format="6" comment="MenuInfo" />
+        <Data ptroff="1BD964" txtoff="1C2800" format="6" comment="Ability" />
+        <Data ptroff="1BDAB0" txtoff="1C6800" format="6" comment="Ability" />
+        <Data ptroff="1BDBBC" txtoff="1CB000" format="6" comment="Magic" />
+        <Data ptroff="1BDCD0" txtoff="1CF000" format="6" comment="Magic" />
+        <Data ptroff="1BDD80" txtoff="1D1800" format="6" comment="Information" />
+        <Data ptroff="1D6000" txtoff="1D6066" format="2" comment="Tutorial" />
+        <Data ptroff="1D7000" txtoff="1D703A" format="2" comment="Tutorial" />
+        <Data ptroff="1D7800" txtoff="1D783C" format="2" comment="Tutorial" />
+        <Data ptroff="1D8000" txtoff="1D8038" format="2" comment="Tutorial" />
+        <Data ptroff="1D8800" txtoff="1D8846" format="2" comment="Tutorial" />
+        <Data ptroff="1D9000" txtoff="1D9024" format="2" comment="Tutorial" />
+        <Data ptroff="1D9800" txtoff="1D980E" format="2" comment="Tutorial" />
+        <Data ptroff="1DA000" txtoff="1DA020" format="2" comment="Tutorial" />
+        <Data ptroff="21F000" txtoff="221800" format="5" comment="Refines" />
+        <Data ptroff="21F800" txtoff="223000" format="5" comment="Refines" />
+        <Data ptroff="220000" txtoff="225000" format="5" comment="Refines" />
+        <Data ptroff="220800" txtoff="225800" format="5" comment="Refines" />
+        <Data ptroff="221000" txtoff="226000" format="5" comment="Refines" />
+        <Data ptroff="227800" txtoff="227830" format="2" comment="Switch" />
+      </EntryInfo>
+      <EntryInfo n="22" type="bin" name="gfs" comment="Contains the names of the GFs"/>
+      <EntryInfo n="25" type="bin" name="battleindex" comment="Contains an index to all the field battle files">
+        <SubIndex begin="499B4" end="4BCA4" folder="Battle" ext="dat" />
+      </EntryInfo>
+      <EntryInfo n="128" type="bin" name="battle" comment="Contains battle menus, commands and info">
+        <Data ptroff="E4" txtoff="4E08" format="7" comment="Commands" />
+        <Data ptroff="21C" txtoff="5188" format="7" comment="Magic" />
+        <Data ptroff="F78" txtoff="57B0" format="7" comment="GF Attacks" />
+        <Data ptroff="17B8" txtoff="59F0" format="7" comment="Monster Attacks" />
+        <Data ptroff="35B8" txtoff="619C" format="7" comment="Weapons" />
+        <Data ptroff="3744" txtoff="62F8" format="7" comment="Squall Limits" />
+        <Data ptroff="37A4" txtoff="6364" format="7" comment="Characters" />
+        <Data ptroff="3930" txtoff="63A0" format="7" comment="Recovery Items" />
+        <Data ptroff="3C48" txtoff="6768" format="7" comment="Items" />
+        <Data ptroff="3EE0" txtoff="7C28" format="7" comment="Other GF Attacks" />
+        <Data ptroff="40E0" txtoff="7CDC" format="7" comment="Junctions" />
+        <Data ptroff="4180" txtoff="7E9C" format="7" comment="Commands" />
+        <Data ptroff="4218" txtoff="8000" format="7" comment="GF Abilities" />
+        <Data ptroff="42B0" txtoff="81A8" format="7" comment="GF Abilities" />
+        <Data ptroff="4350" txtoff="84A8" format="7" comment="GF Abilities" />
+        <Data ptroff="4378" txtoff="8540" format="7" comment="GF Abilities" />
+        <Data ptroff="43C0" txtoff="862C" format="7" comment="GF Abilities" />
+        <Data ptroff="4480" txtoff="89C0" format="7" comment="Laguna Limits" />
+        <Data ptroff="44F8" txtoff="8A40" format="7" comment="Quistis Limits" />
+        <Data ptroff="47F8" txtoff="8C24" format="7" comment="Irvine Limits" />
+        <Data ptroff="48B8" txtoff="8D0C" format="7" comment="Zell Limits" />
+        <Data ptroff="4A5C" txtoff="8E04" format="7" comment="Rinoa Limits" />
+        <Data ptroff="4A6C" txtoff="8E38" format="7" comment="Rinoa Limits" />
+        <Data ptroff="4C0C" txtoff="8E74" format="7" comment="Tastes" />
+        <Data ptroff="4D08" txtoff="8F74" format="7" comment="Misc" />
+      </EntryInfo>
+      <EntryInfo n="129" type="bin" comment="Unknown data"/>
+      <EntryInfo n="130" type="bin" comment="Unknown data"/>
+      <EntryInfo n="131" type="bin" name="mtes" comment="Contains all the MTEs used through files">
+        <Data ptroff="0" txtoff="42" format="2" comment="MTEs" />
+      </EntryInfo>
+      <EntryInfo n="132" type="bin" comment="Unknown data"/>
+    </MainIndex>
+  </DiscInfo>
+</ExtractInfo>
